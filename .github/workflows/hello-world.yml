@@ -6,6 +6,8 @@ jobs:
     # операционная система для работы воркфлоу
     runs-on: ubuntu-latest
     steps: # список шагов, которые надо выполнить
-        # экшен — выполняет какую-то задачу
+      # экшен — выполняет какую-то задачу
+      - name: checkout repo
+        uses: actions/checkout@main  
       - name: first-step
         run: make say-hello
