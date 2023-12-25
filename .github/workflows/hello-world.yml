@@ -6,6 +6,6 @@ jobs:
     # операционная система для работы воркфлоу
     runs-on: ubuntu-latest
     steps: # список шагов, которые надо выполнить
-      # экшен — выполняет какую-то задачу
-      - name: first-step
-      - run: echo "Hello, World!"
+    # экшен — выполняет какую-то задачу
+    - name: first-step
+    - run: echo "Hello, World!"
