@@ -8,4 +8,4 @@ jobs:
     steps: # список шагов, которые надо выполнить
       # экшен — выполняет какую-то задачу
       - name: first-step
-      - run: make say-hello
+      - run: echo "Hello, World!"
